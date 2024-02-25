@@ -1,0 +1,76 @@
+
+/* CSS files add styling rules to your content */
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+		font-size: 1rem;
+		line-height: 1.65;
+}
+
+h1 {
+    border-bottom: solid 1px #ffffff;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    padding-bottom: 0.5rem;
+    margin: 0 0 2rem 0;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+}
+start_button{
+}
+video {
+    display: block;
+}
+
+section {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+
+.removed {
+    display: none;
+}
+
+.invisible {
+    opacity: 0.2;
+}
+
+.camView {
+    position: relative;
+    float: right;
+    width: calc(100% - 20px);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.camView p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000000;
+    border: 1px dashed rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    font-size: 12px;
+}
+
+.highlighter {
+    background: rgba(214, 101, 101, 0.25);
+    border: 1px dashed rgba(214, 101, 101, 0.25);
+    z-index: 1;
+    position: absolute;
+}
